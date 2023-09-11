@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter ID"
+        android:id="@+id/et_id"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Name"
+        android:id="@+id/et_Name"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter SurName"
+        android:id="@+id/et_SurName"
+        />
+
+
+        <EditText
+            android:id="@+id/et_Marks"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Marks"
+            android:inputType="number" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_add"
+        android:text="ADD"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="View Data"
+        android:id="@+id/btn_view"
+        />
+
+
+  <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Data"
+        android:id="@+id/btn_update"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Delete Data"
+        android:id="@+id/btn_Delete"
+        />
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:id="@+id/Rview"
+    >
+
+</androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
